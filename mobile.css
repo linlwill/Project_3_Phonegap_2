@@ -1,0 +1,114 @@
+@media(max-width: 600px){
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+    margin: 0;
+    padding: 0;
+    background: #BCF5A9;
+}
+/*---Establishes the text used for the page---*/
+body {
+    font: 14px/21px "Verdana", "Georgia", "Trebuchet MS", sans-serif;
+}
+/*--HTML 5 Specific CSS --*/
+header,
+section,
+article,
+aside,
+footer{
+    display: block;
+}
+/*--Header1 attributes such as size and padding---*/
+h1{
+    width: auto;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 1px 1px 2px #fff;
+    background: #3ADF00;
+    height: 100px;
+
+    /*---Opacity---*/
+    opacity: 0.50; /*---CSS 3---*/
+
+    /*---Round Corners---*/
+    border-radius: 12px; /*---Opera 10.5, IE9---*/
+}
+/*--Aside attributes such as size and margins---*/
+aside{
+    float: left;
+    width: auto;
+    height: auto;
+    background: #58FA58;
+    margin: 0 0 20px 0;
+    padding-top: 20px;
+    /*---Round Corners---*/
+    border-radius: 12px; /*---Opera 10.5, IE9---*/
+}
+/*--Figcaption attributes such as width and height---*/ 
+aside figcaption{
+    width: auto;
+    height: auto;
+}
+/*--Image attributes such as rounded corners---*/ 
+aside img{
+    /*---Round Corners---*/
+    border-radius: 12px; /*---Opera 10.5, IE9---*/
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* IE */
+}
+/*--Audio attributes such as size and color---*/
+aside audio{
+}
+/*--Section attributes such as size and padding---*/
+section{
+    float: left;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    min-height: 400px;
+    margin: 0 0 20px 0px;
+}
+/*---Section heading 2 attributes such as size and padding---*/
+section h2{
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin: 0;
+}
+/*---Section heading 1 attributes such as size---*/
+section h1{
+    width: auto;
+    height: 100px;
+    alignment: center;
+}
+/*---Section ul attributes such as size---*/
+section ul{
+    width: auto;
+    height: auto;
+}
+/*---Section form attributes such as size---*/
+section form{
+    width: auto;
+    height: auto;
+}
+/*---Footer attributes such as size and padding---*/ 
+footer{
+    text-align: center;
+    clear: both !important;
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    background: #3ADF00;
+    
+    /*---Opacity---*/
+    opacity: 0.50; /*---CSS 3---*/
+
+    /*---Round Corners---*/
+    border-radius: 12px; /*---Opera 10.5, IE9---*/
+}
+*:focus {outline: none;}
+}
